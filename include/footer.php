@@ -9,7 +9,7 @@
 
 <!-- Bootstrap jquery -->
 
-<script src="js/bootstrap/bootstrap.min.js"></script>
+<!-- <script src="js/bootstrap/bootstrap.min.js"></script> -->
 <!-- jquery -->
 <script src="js/jquery-3.2.1.min.js"></script>
 
