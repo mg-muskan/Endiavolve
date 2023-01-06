@@ -3,8 +3,8 @@
 <footer>
     <div id="contact">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
                     <div id="contact-left" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                         <h3>ENDIAVOLVE</h3>
                         <p><strong>VISION</strong><br>Be & Be <strong>Recognized</strong> as the most <strong>
@@ -42,7 +42,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-5">
                     <div id="contact-right" class="wow animated fadeInRight" data-wow-duration="1s"
                         data-wow-delay=".5s">
                         <h3>Contact Us</h3>
@@ -69,15 +69,15 @@
     
     <div id="footer-bottom">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
                     <div id="footer-copyrights" class="wow animated bounceInLeft" data-wow-duration="1s"
                         data-wow-delay=".5s">
                         <p>Copyrights &copy; 2022 All Rights Reserved by ENDIAVOLVE Pvt Ltd.</p>
                     </div>
 
                 </div>
-                <div class="col-md-6 hidden-sm hidden-xs">
+                <div class="col-md-5 hidden-sm hidden-xs">
                     <div id="footer-menu" class="wow animated bounceInRight" data-wow-duration="1s"
                         data-wow-delay=".5s">
                         <ul>
