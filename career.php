@@ -26,8 +26,8 @@ include 'include/mheader.php';
 
 <section id="join-us-page">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
+        <div class="row justify-content-around d-block d-md-flex">
+            <div class="col-md-10">
                 <div class="career-title">
                     <h1 class="career-title">join us</h1>
                 </div>
@@ -41,11 +41,11 @@ include 'include/mheader.php';
 
                 <!-- Start Career content -->
 
-                <div class="container card-head">
+                <div class="container card-head d-inline d-md-flex">
 
                     <!-- PROFESSOR CONTENT PAGE -->
 
-                    <div class="col-md-4 card">
+                    <div class="col-6 col-md-5 col-lg-4 card border-0 mx-auto">
 
                         <div class="slide slide1">
 
@@ -78,7 +78,7 @@ include 'include/mheader.php';
 
                     <!-- INDUSTRY EXPERT CONTENT -->
 
-                    <div class="col-md-4 card">
+                    <div class="col-6 col-md-5 col-lg-4 card border-0 mx-auto">
 
                         <div class="slide slide1">
 
@@ -112,7 +112,7 @@ include 'include/mheader.php';
 
                     <!-- RESEARCH SCHOLAR slider -->
 
-                    <div class="col-md-4 card">
+                    <div class="col-6 col-md-5 col-lg-4 card border-0 mx-auto">
 
                         <div class="slide slide1">
 
