@@ -23,7 +23,7 @@
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> -->
 
     <!-- Get Bootsrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" type="text/css"> -->
     <script src="js/scrollspy/jquery.min.js"></script>
     <!-- Bootstrap 5.2 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
