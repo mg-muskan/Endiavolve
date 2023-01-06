@@ -30,8 +30,8 @@ include "include/mheader.php";
             <div class="content-title-underline"></div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
+            <div class="row ms-auto me-auto">
+                <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                         <div class="service-item-icon">
                             <i class="fa fa-laptop fa-3x"></i>
@@ -44,7 +44,7 @@ include "include/mheader.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                         <div class="service-item-icon">
                             <i class="fa fa-solid fa-bolt fa-3x"></i>
@@ -57,7 +57,7 @@ include "include/mheader.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                         <div class="service-item-icon">
                             <i class="fa fa-tint fa-3x"></i>
@@ -70,7 +70,7 @@ include "include/mheader.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                         <div class="service-item-icon">
                             <i class="fa fa-building fa-3x"></i>
@@ -81,7 +81,7 @@ include "include/mheader.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                         <div class="service-item-icon">
                             <i class="fa fa-lightbulb fa-3x"></i>
@@ -94,7 +94,7 @@ include "include/mheader.php";
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                         <div class="service-item-icon">
                             <i class="fa fa-cogs fa-3x"></i>
@@ -118,11 +118,11 @@ include "include/mheader.php";
     <div id="about-bg-diagonal" class="bg-parallax"></div>
     <!-- About left side with content -->
     <div class="container">
-        <div class="row">
-            <div class="col-md-4">
+        <div class="row justify-content-center">
+            <div class="col-9">
                 <div id="about-content-box">
                     <div id="about-content-box-outer">
-                        <div id="about-content-box-inner align-middle">
+                        <div id="about-content-box-inner">
 
                             <div class="content-title wow animeted fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
                                 <h3>About ENDIAVOLVE</h3>
@@ -226,8 +226,8 @@ include "include/mheader.php";
         </div>
 
         <div class="container">
-            <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                <div class="col-md-12">
+            <div class="row wow animated fadeInUp justify-content-center" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="col-10">
                     <div id="team-members" class="owl-carousel owl-theme">
 
 
