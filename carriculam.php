@@ -10,8 +10,8 @@ include 'include/mheader.php';
 <div id="banner" class="py-5">
     <div class="container">
         <div class="row">
-            <div class=" col-md-10 col-lg-6">
-                <div class="banner-title">
+            <div class=" col-sm-10 col-lg-5">
+                <div class="banner-title ms-80" style="margin-top: -140px; margin-left: 80px; margin-right: -90px">
                     <h1 class="title">CURRICULUM</h1>
                     <p class="lead">currently we are providing  26 branches for
                         <b>B.E.</b> and <b>B.Tech</b>Students, Later we will add-up all branches for BE and
@@ -26,8 +26,8 @@ include 'include/mheader.php';
 <!-- CARRICULAM -->
 <div id="carriculam-header">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
+        <div class="row justify-content-around d-block d-md-flex">
+            <div class="col-12 col-lg-9 col-xl-7">
 
                 <div class="carriculam-title">
                     <h1 class="c-title">Our Courses</h1>
@@ -37,11 +37,11 @@ include 'include/mheader.php';
 
 
 
-                <div class="container card-head">
+                <div class="container card-head d-inline d-md-flex">
 
 
 
-                    <div class="card-dis col-md-4 card">
+                    <div class="card-dis col-6 col-md-4 card border-0 mx-auto">
 
                         <div class="slide slide1">
 
@@ -78,7 +78,7 @@ include 'include/mheader.php';
 
                     <!-- fja;ldjfg;ljd;fgjl;sdfjg;ljsdlfgjsdfdgsdklf -->
 
-                    <div class="col-md-4 card">
+                    <div class="col-6 col-md-4 card border-0 mx-auto">
 
                         <div class="slide slide1">
 
@@ -112,7 +112,7 @@ include 'include/mheader.php';
 
                     <!-- fja;ldjfg;ljd;fgjl;sdfjg;ljsdlfgjsdfdgsdklf -->
 
-                    <div class="col-md-4 card">
+                    <div class="col-6 col-md-4 card border-0 mx-auto">
 
                         <div class="slide slide1">
 
