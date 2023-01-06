@@ -7,23 +7,23 @@ include 'include/mheader.php';
 <!-- MAIN BLOG PAGE -->
 
 <div class="container">
-    <div class="row">
+    <div class="row justify-content-center">
 
     <div class="carriculam-title">
             <h1 class="c-title blog-head"><b>We are hiring</b></h1>
         </div>
 
 
-        <div class="col-md-12">
-            <div class="col-md-8 blog-page-content">
+        <div class="col-12">
+            <div class="col-8 blog-page-content">
         <h2><b>Blog title</b></h2>
                     <a href="#"><i class="fa fa-clock"></i>Shivam Anand</a><a href="#"><i class="fa fa-mail-bulk"></i>Admin</a><a href="#"><i class="fa fa-calendar"></i>22 nov, 2022</a>
                     </div>
-            <div class="col-md-8 blog-page">
-                <div class="col-md-12 mainblog-page-img">
-                    <img src="img/blogs/3979483.jpg" class="img-responsive" alt="">
+            <div class="col-8 blog-page">
+                <div class="col-12 mainblog-page-img">
+                    <img src="img/blogs/3979483.jpg" class="img-responsive img-fluid" alt="">
                 </div>
-                <div class="col-md-12 blog-page-content">
+                <div class="col-12 blog-page-content">
 
 
                 
@@ -64,7 +64,7 @@ include 'include/mheader.php';
                         <label class="suggetion-form-heading" for="message">Message</label>
                         <textarea name="msg" id="" msg cols="30" rows="1" class="form-control" style="background-color: black;"></textarea>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-6">
                         <div class="form-group">
                             <label class="suggetion-form-heading" for="name">Name</label>
                             <input type="text" name="name" id="fullname" class="form-control">
