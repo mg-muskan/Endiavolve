@@ -70,7 +70,7 @@ include 'include/mheader.php';
 <!-- start blog page. -->
 
 <div class="container">
-    <div class="row">
+    <div class="row justify-content-start">
 
         <div class="carriculam-title">
             <h1 class="c-title blog-head"><b>Our Blogs</b></h1>
@@ -78,11 +78,11 @@ include 'include/mheader.php';
 
 
 
-        <div class="col-md-12 blog-page">
-            <div class="col-md-4 blog-page-img">
-                <img src="img/blogs/3979483.jpg" class="img-responsive" alt="">
+        <div class="col-12 blog-page">
+            <div class="col-4 blog-page-img">
+                <img src="img/blogs/3979483.jpg" class="img-responsive img-fluid" alt="">
             </div>
-            <div class="col-md-8 blog-page-content">
+            <div class="col-8 blog-page-content">
                 <h2><b>We are hiring</b></h2>
                 <a href="#"><i class="fa fa-clock"></i>Shivam Anand</a><a href="#"><i class="fa fa-mail-bulk"></i>Admin</a><a href="#"><i class="fa fa-calendar"></i>22 nov, 2022</a>
                 <p>we don't need CV’s or resumes, we want real talent ,we don't need degree, if anyone want to join our revolution, so ......</p>
