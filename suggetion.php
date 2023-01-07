@@ -70,7 +70,7 @@ include 'include/mheader.php';
 <!-- start blog page. -->
 
 <div class="container">
-    <div class="row justify-content-start">
+    <div class="row d-block">
 
         <div class="carriculam-title">
             <h1 class="c-title blog-head"><b>Our Blogs</b></h1>
@@ -78,15 +78,15 @@ include 'include/mheader.php';
 
 
 
-        <div class="col-12 blog-page">
-            <div class="col-4 blog-page-img">
+        <div class="col-md-10 blog-page d-md-flex mx-auto">
+            <div class="col-md-4 blog-page-img p-1 me-2">
                 <img src="img/blogs/3979483.jpg" class="img-responsive img-fluid" alt="">
             </div>
-            <div class="col-8 blog-page-content">
+            <div class="col-md-8 blog-page-content ms-2">
                 <h2><b>We are hiring</b></h2>
                 <a href="#"><i class="fa fa-clock"></i>Shivam Anand</a><a href="#"><i class="fa fa-mail-bulk"></i>Admin</a><a href="#"><i class="fa fa-calendar"></i>22 nov, 2022</a>
                 <p>we don't need CV’s or resumes, we want real talent ,we don't need degree, if anyone want to join our revolution, so ......</p>
-                <a href="suggetion-blog.php" class="btn btn-blog pull-right btn-small btn-black">Read More</a>
+                <a href="suggetion-blog.php" class="btn btn-blog float-end btn-small btn-black">Read More</a>
             </div>
         </div>
 
@@ -97,7 +97,7 @@ include 'include/mheader.php';
 
 
         <div class="pagination-area" aria-label="Page navigation example">
-            <ul class="pagination">
+            <ul class="pagination justify-content-center">
                 <li class="page-item">
                     <a class="page-link" href="#">Previous</a>
                 </li>
