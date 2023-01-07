@@ -7,23 +7,23 @@ include 'include/mheader.php';
 <!-- MAIN BLOG PAGE -->
 
 <div class="container">
-    <div class="row justify-content-center">
+    <div class="row">
 
-    <div class="carriculam-title">
+        <div class="carriculam-title">
             <h1 class="c-title blog-head"><b>We are hiring</b></h1>
         </div>
 
 
-        <div class="col-12">
-            <div class="col-8 blog-page-content">
-        <h2><b>Blog title</b></h2>
-                    <a href="#"><i class="fa fa-clock"></i>Shivam Anand</a><a href="#"><i class="fa fa-mail-bulk"></i>Admin</a><a href="#"><i class="fa fa-calendar"></i>22 nov, 2022</a>
-                    </div>
-            <div class="col-8 blog-page">
-                <div class="col-12 mainblog-page-img">
-                    <img src="img/blogs/3979483.jpg" class="img-responsive img-fluid" alt="">
+        <div class="col-md-12">
+            <div class="col-md-8 blog-page-content">
+                <h2><b>Blog title</b></h2>
+                <a href="#"><i class="fa fa-clock"></i>Shivam Anand</a><a href="#"><i class="fa fa-mail-bulk"></i>Admin</a><a href="#"><i class="fa fa-calendar"></i>22 nov, 2022</a>
+            </div>
+            <div class="col-md-7 blog-page">
+                <div class="col-md-12 mainblog-page-img">
+                    <img src="img/blogs/3979483.jpg" class="img-fluid" alt="">
                 </div>
-                <div class="col-12 blog-page-content">
+                <div class="col-md-12 blog-page-content">
 
 
                 
@@ -55,26 +55,26 @@ include 'include/mheader.php';
 
 <section id="suggetion-form">
     <div class="container">
-        <div class="row">
+        <div class="row g-3">
             <!-- <div class="col-md-12"> -->
-            <div class="col-lg-12 col-md-12 col-sm-12 offset-md-1 offset-sm-1 col-12 mt-4">
+            <div class="col-sm-10 offset-md-1 offset-sm-1 col-12 mt-4 d-block">
                 <form id="algin-form">
                     <div class="form-group">
                         <h4 class="suggetion-form-heading">Leave a comment</h4>
                         <label class="suggetion-form-heading" for="message">Message</label>
                         <textarea name="msg" id="" msg cols="30" rows="1" class="form-control" style="background-color: black;"></textarea>
                     </div>
-                    <div class="col-6">
-                        <div class="form-group">
-                            <label class="suggetion-form-heading" for="name">Name</label>
+                    <div class="col-md-6">
+                        <!-- <div class="form-group"> -->
+                            <label class="suggetion-form-heading form-label" for="fullname">Name</label>
                             <input type="text" name="name" id="fullname" class="form-control">
-                        </div>
+                        <!-- </div> -->
                     </div>
                     <div class="col-md-6">
-                        <div class="form-group">
-                            <label class="suggetion-form-heading" for="email">Email</label>
+                        <!-- <div class="form-group"> -->
+                            <label class="suggetion-form-heading form-label" for="email">Email</label>
                             <input type="text" name="email" id="email" class="form-control">
-                        </div>
+                        <!-- </div> -->
                     </div>
                     <div class="form-group">
                         <p class="text-secondary">If you have a <a href="#" class="alert-link">gravatar account</a> your address will be used to display your profile picture.</p>
@@ -83,7 +83,7 @@ include 'include/mheader.php';
                         <input type="checkbox" name="check" id="checkbx" class="mr-1">
                         <label for="subscribe">Subscribe me to the newlettter</label>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mb-4">
                         <button type="button" id="post" class="btn btn-lg btn-blue-gray">Post Comment</button>
                     </div>
                 </form>
