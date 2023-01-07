@@ -96,6 +96,9 @@
     #footer-copyrights {
         text-align: center;
     }
+    .user-panel-footer-menu{
+        display: none;
+    }
 }
 
 
@@ -113,27 +116,14 @@
     .navbar-brand {
         margin-left: 50px !important;
     }
-    .form-searchbox {
-        background: none;
-        border-radius: 5px;
+    .search {
+        background: #fff;
+        margin-bottom: 10px;
+        /* border-radius: 5px; */
     }
-    .form-searchbox a {
-        color: #fff;
-        background: #000;
-        padding: 9px 15px;
-        border-radius: 5px;
-    }
-    .form-searchbox a {
+    .search a {
         color: #fff;
         background: rgba(0, 0, 0, 0.5);
-        border: 2px solid #000;
-        padding: 9px 20%;
-        margin: 30%;
-        margin-top: 50px;
-        border-radius: 5px;
-    }
-    .form-searchbox input[type=text] {
-        margin-bottom: 15px;
     }
     .user-panel-nav-toggle{
         background: #ffa502;
@@ -222,7 +212,16 @@
     #footer-copyrights {
         text-align: center;
     }
+    #row-footer {
+        display: block;
+    }
+    #col-footer {
+        display: inline;
+    }
     .professor-div-form {
+        display: none;
+    }
+    .user-panel-footer-menu{
         display: none;
     }
     /* signup panel */
