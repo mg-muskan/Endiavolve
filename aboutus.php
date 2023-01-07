@@ -24,15 +24,15 @@ include 'include/mheader.php';
 </div>
 
 <!-- About Us page -->
-<div class="aboutus-content ">
+<div class="aboutus-content">
     <div class="container about-border">
-        <div class="row">
-            <div class="col-md-6 wow fadeInLeft aboutus-content-page">
+        <div class="row justify-content-evenly">
+            <div class="col-md-5 p-1 wow fadeInLeft aboutus-content-page">
                 <div class="aboutus-carriculam-title">
                     <h1 class="aboutus-c-title"><b>About Us</b></h1>
                 </div>
-                <div class="col-md-12 vedio-form">
-                    <div class="embed-responsive embed-responsive-16by9">
+                <div class="col-md-11 vedio-form mx-auto">
+                    <div class="embed-responsive ratio ratio-16x9">
                         <iframe width="" height="" src="https://www.youtube.com/embed/wNcLbn6KH1s"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -100,7 +100,7 @@ include 'include/mheader.php';
 
 
             <!-- Second part of aboutus  -->
-            <div class="col-md-6 wow fadeInRight aboutus-content-second-page">
+            <div class="col-md-5 p-1 wow fadeInRight aboutus-content-second-page">
                 <div class="aboutus-carriculam-title">
                     <h1 class="aboutus-c-title"><b>WHY WE ARE THE BEST?</b></h1>
                 </div>
@@ -187,91 +187,92 @@ include 'include/mheader.php';
 <section id="our-professors">
     <div class="our-professors-background">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4  wow fadeInLeft">
-                    <h2 class="heading-white"><b>we are in a mission to make youth revolutionary, imaginary, inventive,
+            <div class="row justify-content-evenly mx-auto">
+                <div class="col-md-3 mx-auto wow fadeInLeft">
+                    <h2 class="heading-white fs-3"><b>we are in a mission to make youth revolutionary, imaginary, inventive,
                             innovative & start-up centric with moral UPLiftment.</b></h2>
                 </div>
 
 
-                <div class="col-md-8  wow fadeInRight">
+                <div class="col-md-8 ms-2 wow fadeInRight">
                     <h2 class="heading-white">OUR PROFESSORS/research scholers/industry expert</h2>
+                    <div class="row justify-content-center">
 
-                    <div class="col-md-6">
-                        <!-- our professors item 1 -->
-                        <div class="our-professors-item">
+                        <div class="col-md-5">
+                            <!-- our professors item 1 -->
+                            <div class="our-professors-item">
 
-                            <div class="our-professors-icon">
-                            <i class="fa-solid fa-arrow-right fa-2x"></i>
+                                <div class="our-professors-icon">
+                                <i class="fa-solid fa-arrow-right fa-2x"></i>
+                                </div>
+                                <div class="our-professors-title">
+                                    <p>our professors/tutors are highly qualified.</p>
+                                </div>
                             </div>
-                            <div class="our-professors-title">
-                                <p>our professors/tutors are highly qualified.</p>
+
+                            <!-- our professors item 2 -->
+                            <div class="our-professors-item">
+
+                                <div class="our-professors-icon">
+                                <i class="fa-solid fa-arrow-right fa-2x"></i>
+                                </div>
+                                <div class="our-professors-title">
+                                    <p>We do not allow anyone like this to teach with us.</p>
+                                </div>
                             </div>
+
+                            <!-- our professors item 3 -->
+                            <div class="our-professors-item">
+
+                                <div class="our-professors-icon">
+                                <i class="fa-solid fa-arrow-right fa-2x"></i>
+                                </div>
+                                <div class="our-professors-title">
+                                    <p>we have a separate wing to select and train our professors, to bring our professors
+                                        with our standard.</p>
+                                </div>
+                            </div>
+
                         </div>
 
-                        <!-- our professors item 2 -->
-                        <div class="our-professors-item">
 
-                            <div class="our-professors-icon">
-                            <i class="fa-solid fa-arrow-right fa-2x"></i>
+                        <div class="col-md-5 data-wow-duration='1s' data-wow-delay='.5s'">
+
+                            <!-- our professors part 2 item 1 -->
+                            <div class="our-professors-item">
+
+                                <div class="our-professors-icon">
+                                <i class="fa-solid fa-arrow-right fa-2x"></i>
+                                </div>
+                                <div class="our-professors-title">
+                                    <p>we have a selection process and criteria to select a professor.</p>
+                                </div>
                             </div>
-                            <div class="our-professors-title">
-                                <p>We do not allow anyone like this to teach with us.</p>
+
+                            <!-- our professors item 2 -->
+                            <div class="our-professors-item">
+
+                                <div class="our-professors-icon">
+                                <i class="fa-solid fa-arrow-right fa-2x"></i>
+                                </div>
+                                <div class="our-professors-title">
+                                    <p>we have SOP'<small>s</small> AND STANDARD MODEL'S TO OPERATE CLASSES AND SESSION'S.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- our professors item 3 -->
-                        <div class="our-professors-item">
+                            <!-- our professors item 3 -->
+                            <div class="our-professors-item">
 
-                            <div class="our-professors-icon">
-                            <i class="fa-solid fa-arrow-right fa-2x"></i>
-                            </div>
-                            <div class="our-professors-title">
-                                <p>we have a separate wing to select and train our professors, to bring our professors
-                                    with our standard.</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <div class="col-md-6 data-wow-duration='1s' data-wow-delay='.5s'">
-
-                        <!-- our professors part 2 item 1 -->
-                        <div class="our-professors-item">
-
-                            <div class="our-professors-icon">
-                            <i class="fa-solid fa-arrow-right fa-2x"></i>
-                            </div>
-                            <div class="our-professors-title">
-                                <p>we have a selection process and criteria to select a professor.</p>
-                            </div>
-                        </div>
-
-                        <!-- our professors item 2 -->
-                        <div class="our-professors-item">
-
-                            <div class="our-professors-icon">
-                            <i class="fa-solid fa-arrow-right fa-2x"></i>
-                            </div>
-                            <div class="our-professors-title">
-                                <p>we have SOP'<small>s</small> AND STANDARD MODEL'S TO OPERATE CLASSES AND SESSION'S.
-                                </p>
+                                <div class="our-professors-icon">
+                                <i class="fa-solid fa-arrow-right fa-2x"></i>
+                                </div>
+                                <div class="our-professors-title">
+                                    <p>THAT'S HOW WE CONTROL THE QUALITY OF EDUCATION AND BRING THE MANNERED LEARNING TO
+                                        STUDENTS.</p>
+                                </div>
                             </div>
                         </div>
-
-                        <!-- our professors item 3 -->
-                        <div class="our-professors-item">
-
-                            <div class="our-professors-icon">
-                            <i class="fa-solid fa-arrow-right fa-2x"></i>
-                            </div>
-                            <div class="our-professors-title">
-                                <p>THAT'S HOW WE CONTROL THE QUALITY OF EDUCATION AND BRING THE MANNERED LEARNING TO
-                                    STUDENTS.</p>
-                            </div>
-                        </div>
-
                     </div>
 
 
@@ -288,8 +289,8 @@ include 'include/mheader.php';
 
 <section id="internship-program">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4">
+        <div class="row justify-content-evenly mx-auto">
+            <div class="col-md-3">
                 <div class="aboutus-carriculam-title">
                     <h1 class="aboutus-c-title"><b>our program </b></h1>
                 </div>
@@ -298,7 +299,7 @@ include 'include/mheader.php';
                     <figcaption class="figure-caption text-right">ENDIAVOLVE INTERSHIP PROGRAM.</figcaption>
                 </figure>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="aboutus-carriculam-title">
                     <h1 class="aboutus-c-title"><b>internship program </b></h1>
                 </div>
@@ -306,7 +307,7 @@ include 'include/mheader.php';
                     PARTNER INDUSTRIES, BUT THIS INTERNSHIP WILL BE VERY INTERESTING FIRST WE SEND STUDENTS TO RELATED
                     INDUSTRIES ACCORDING TO THEIR INDIVIDUAL DIFFERENCES.</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="aboutus-carriculam-title">
                     <h1 class="aboutus-c-title"><b>Task in internship program </b></h1>
                     <p>WHERE THE TASK IS FOR STUDENTS TO VISIT INDUSTRIES AND FIND OUT THE PROBLEMS RELATED TO THEIR
