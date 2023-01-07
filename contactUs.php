@@ -14,8 +14,8 @@ include 'include/mheader.php';
 
     <section class="breadcrumbs">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
+            <div class="row justify-content-center me-auto">
+                <div class="col-10">
                     <div class="breadcrumb-wrapper">
                         <h1 class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Contact Us</h1>
                         <ul class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
@@ -30,8 +30,8 @@ include 'include/mheader.php';
 
     <section class="contact-area sec-mar">
         <div class="container">
-            <div class="row">
-                <div class="col col-md-6 col-xl-6">
+            <div class="row justify-content-center me-auto">
+                <div class="col col-md-10">
                     <div class="title black">
                         <span class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Get In
                             Touch</span>
@@ -41,8 +41,8 @@ include 'include/mheader.php';
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-4 col-xl-4 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+            <div class="row justify-content-center mx-auto">
+                <div class="col-md-5 col-lg-4 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
                     <div class="office-info">
                         <div class="icon">
 
@@ -52,7 +52,7 @@ include 'include/mheader.php';
                         <p>Tidhwa, Reri, Derapur, Kanpur Dehat,, Kanpur, Uttar Pradesh, India, 209301</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-4 wow bounceInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="col-md-5 col-lg-4 wow bounceInUp" data-wow-duration="1s" data-wow-delay=".5s">
                     <div class="office-info">
                         <div class="icon">
                             <i class="fa fa-phone"></i>
@@ -62,7 +62,7 @@ include 'include/mheader.php';
                         <a href="https://twitter.com/endiavolve">Twitter</a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-4 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="col-md-5 col-lg-4 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
                     <div class="office-info">
                         <div class="icon">
                             <i class="fa-solid fa-envelope"></i>
