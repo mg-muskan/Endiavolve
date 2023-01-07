@@ -110,6 +110,41 @@ h4 {
 
 /*================================================================================================================
                                             
+                                                Comming Soon
+
+=================================================================================================================*/
+
+#comming-soon-page{
+    background: url("../img/come.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comming-soon-content {
+    text-align: center;
+}
+
+.comming-soon-content img{
+    background: #fff;
+    width: 20vh;
+    height: 20vh;
+    padding: 10px;
+}
+
+.comming-soon-content h1{
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+/*================================================================================================================
+                                            
                                                 NAVIGATION
 
 =================================================================================================================*/
@@ -216,12 +251,12 @@ h4 {
     color: #000 !important;
 }
 
-.form-searchbox {
+.search {
     background: #fff;
     border-radius: 5px;
 }
 
-.form-searchbox input[type=text] {
+.search input[type=text] {
     background: none;
     border: none;
     outline: none;
@@ -231,14 +266,14 @@ h4 {
     /* box-shadow: inset 13px 12px 20px 20px rgb(0 0 0 / 30%); */
 }
 
-.form-searchbox input::placeholder {
+.search input::placeholder {
     text-align: center;
     /* color: #64707b; */
     font-weight: 500;
     font-size: 16px;
 }
 
-.form-searchbox a {
+.search a {
     color: #000;
     /* background: #000; */
     /* border: 2px solid #000; */
@@ -246,7 +281,7 @@ h4 {
     border-radius: 5px;
 }
 
-.form-searchbox a:hover {
+.search a:hover {
     background: #ffa502;
     color: #fff;
 }
@@ -3102,4 +3137,13 @@ ol {
 .user-panel-footer-menu ul li a:hover{
     color: #ffa502;
     padding: 0 10px;
+}
+
+/*================================================================
+                        playList
+================================================================= */
+
+#user-panel-playlist{
+    min-height: 90vh;
+    margin-top: 7vh;
 }
