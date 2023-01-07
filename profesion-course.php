@@ -11,7 +11,7 @@ include 'include/header.php';
     <div class="bg bg2"></div>
     <div class="bg bg3"></div>
     <div class="career-back">
-        <a href="career.php"><i class="fa-sharp fa-solid fa-circle-arrow-left fa-5x"></i></i></a>
+        <a href="career.php"><i class="fa-sharp fa-solid fa-circle-arrow-left fa-4x"></i></i></a>
     </div>
 
     <div class="professor-color-content">
@@ -32,11 +32,11 @@ include 'include/header.php';
 
 
 
-                    <div class="col-md-6">
+                    <div class="col-md-5 p-2">
 
                         <div id="main-content">
                             <?php
-                            $pro_name = $_GET['id'];
+                            @$pro_name = $_GET['id'];
                             echo '<h2><b>Apply as a ' . $pro_name . '</b></h2>';
                             ?>
 
