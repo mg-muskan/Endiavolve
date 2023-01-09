@@ -35,5 +35,7 @@
     <link rel="stylesheet" href="../css/indexcss.css" type="text/css">
     <!-- Resposive Page -->
     <link rel="stylesheet" href="../css/responsive.css" type="text/css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
