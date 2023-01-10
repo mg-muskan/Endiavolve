@@ -2950,6 +2950,61 @@ ol {
 
 /*================================================================================================================
                                             
+                                STUDENT BOX - USER_PANEL
+
+=================================================================================================================*/
+
+.user-panel {
+    margin-top: 50px;
+    width: 100%;
+}
+.card-body {
+    border-radius: 0;
+}
+.card-body a {
+    text-decoration: none;
+    color: #000;
+}
+.navigation {
+    /* margin-left: 30px; */
+    width: 70%;
+}
+
+.navigation li a {
+    color: #000;
+    font-size: 15px;
+    padding: 12px 20px !important;
+    margin: 0px 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.navigation li a:hover,
+.navigation li.active a {
+    background: #ffa502;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+.nav-active.active {
+    background: #ffa502;
+    color: #000;
+}
+
+.card-h {
+    height: 90vh;
+    z-index: 1;
+    margin-left: -300px;
+    transition: all 0.5s;
+}
+.card-h.active {
+    margin-left: 0;
+}
+
+
+/*================================================================================================================
+                                            
                                 FORGATE PASSWORD PAGE
 
 =================================================================================================================*/
